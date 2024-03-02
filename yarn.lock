@@ -531,6 +531,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.24.2":
+  version: 5.24.2
+  resolution: "@tanstack/query-core@npm:5.24.2"
+  checksum: 890cce7066642a88598f6702e59cc2f29f5590dab640dc743e85b7d5d7a5b4564590941e0f40bb3f3f3cdcace0755c9f44f88804d65758e175a49eb0bbbac1f9
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.24.2":
+  version: 5.24.2
+  resolution: "@tanstack/react-query@npm:5.24.2"
+  dependencies:
+    "@tanstack/query-core": 5.24.2
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 5f63981b7ef7ab5de8b62432a048f3cf6657ae2582db5a8ac44267513e8dd7f87e6987959630d612bae77a886f1fbe41beda6c85807fa1eb62f70e711eeacf96
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:1.0.5":
   version: 1.0.5
   resolution: "@types/estree@npm:1.0.5"
@@ -971,6 +989,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dream-react-query@workspace:."
   dependencies:
+    "@tanstack/react-query": ^5.24.2
     "@types/react": ^18.2.56
     "@types/react-dom": ^18.2.19
     "@vitejs/plugin-react-swc": ^3.5.0
